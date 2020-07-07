@@ -17,3 +17,6 @@ Complete these set up tasks:
 Requirements
 
 - Node 10.15.3
+
+Running Tests
+From the root directory: npm test

@@ -1,0 +1,23 @@
+{
+  "name": "kate-proxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server/start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-hackreactor": "github:reactorcore/eslint-config-hackreactor",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
